@@ -56,6 +56,12 @@ public class Main {
         System.out.println("juniors: " + java.util.Arrays.toString(h1.getJuniorDevelopers()));
         h1.addEmployee(1,j4);
         h1.addEmployee(6,j3);
+        h1.addEmployee(0,m1);
+        h1.addEmployee(0,s1);
+        h1.addEmployee(2,s1);
+        h1.addEmployee(1,s1);
+        System.out.println("midDevs: " + java.util.Arrays.toString(h1.getMidDevelopers()));
+        System.out.println("seniorDevs: " + java.util.Arrays.toString(h1.getSeniorDevelopers()));
 
     }
 }
